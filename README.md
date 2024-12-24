@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React's `useEffect` hook: creating an infinite loop by updating a state variable within the effect's callback while including that same state variable in the dependency array. The `bug.js` file showcases the erroneous code, while `bugSolution.js` provides the corrected version.
